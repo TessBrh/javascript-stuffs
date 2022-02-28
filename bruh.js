@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html>
-<body>
+<body style = "background-color: lightgreen";>
 
-<h2>My First JavaScript</h2>
+<style>
 
+p {
+	border: 2px solid white;
+	border-radius: 12px;
+	padding: 5px;
+    background-color: white;
+}
+</style>
+
+<h2 style = "border: 2px solid white; border-radius: 12px; padding: 5px; background-color: white";>Button clicker (real)</h2>
 <button type="button"
-onclick="document.getElementById('demo').innerHTML = Date()">
-Click me to display Date and Time.</button>
+onclick="document.getElementById('ClickCounter').innerHTML = IncreaseClicks()">
+CLICK MEEEEE</button>
 
-<p id="demo"></p>
+<p id="ClickCounter"></p>
+
+<script>
+    Clicks = 0
+    function IncreaseClicks() {
+        Clicks++
+        return Clicks
+    }
+</script>
 
 </body>
-</html> 
+</html>
