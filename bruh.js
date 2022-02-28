@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
+<head>
+<title> BRUH </title>
+<link rel="icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdrNbSgrLg0WNF4R95GU7t4g_bGwmBr8z_Og&usqp=CAU">
 <body style = "background-color: lightgreen";>
-
 <style>
-
 p {
 	border: 2px solid white;
 	border-radius: 12px;
@@ -26,6 +27,6 @@ CLICK MEEEEE</button>
         return Clicks
     }
 </script>
-
 </body>
+</head>
 </html>
